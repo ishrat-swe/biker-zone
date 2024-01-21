@@ -65,30 +65,11 @@
             </div>
         </nav>
         <!-- Banner -->
-        <!-- <div class="carousel lg:h-[550px]">
-            <div id="slide1" class="carousel-item bg-banner-primary-bg rounded-lg relative w-full">
-                <div class="flex flex-auto gap-12 items-center lg:p-24">
-                    <div class="space-y-7 lg:w-[440px] flex-1">
-                        <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                        <p>Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                        <button class="btn bg-bike-primary text-white">Purchase</button>
-                    </div>
-                    <div class="flex-1 items-center">
-                        <img src="images/slider/bike1.png" class=" w-3/4"/>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-
-          </div> -->
           <div class="bg-banner-primary-bg ">
             <div class="carousel w-full lg:h-[550px] rounded-lg">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="flex flex-col lg:flex-row flex-auto gap-12 items-center lg:p-24">
-                        <div class="space-y-7 lg:w-[440px] flex-1">
+                        <div class="space-y-7 lg:w-[440px] flex-1 pt-10">
                             <h1 class="text-3xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                             <p>Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -104,7 +85,7 @@
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
                     <div class="flex flex-col lg:flex-row flex-auto gap-12 items-center lg:p-24">
-                        <div class="space-y-7 lg:w-[440px] flex-1">
+                        <div class="space-y-7 lg:w-[440px] flex-1 pt-10">
                             <h1 class="text-3xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                             <p>Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -120,7 +101,7 @@
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
                     <div class="flex flex-col lg:flex-row flex-auto gap-12 items-center lg:p-24">
-                        <div class="space-y-7 lg:w-[440px] flex-1">
+                        <div class="space-y-7 lg:w-[440px] flex-1 pt-10">
                             <h1 class="text-3xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                             <p>Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -136,7 +117,7 @@
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
                     <div class="flex flex-col lg:flex-row flex-auto gap-12 items-center lg:p-24">
-                        <div class="space-y-7 lg:w-[440px] flex-1">
+                        <div class="space-y-7 lg:w-[440px] flex-1 pt-10">
                             <h1 class="text-3xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                             <p>Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -151,14 +132,62 @@
                   </div>
                 </div>
               </div>
-          </div>
-
-
-
-          
+          </div>        
     </header>
-    <main>
-        
+    <main class="container mx-auto mt-4">
+        <!-- Featured Bikes -->
+        <h1 class="text-3xl lg:text-5xl font-bold text-center p-10 pb-9">Featured Bikes of this year</h1>
+        <div class="flex flex-col lg:flex-row justify-between">
+            <div>
+                <img src="images/others/feature-bike.png" class="filter grayscale" alt="">
+            </div>
+            <div>
+                <img src="images/others/feature-bike.png" alt="">
+            </div>
+            <div>
+                <img src="images/others/feature-bike.png" class="filter grayscale" alt="">
+            </div>
+        </div>
+        <!-- Latest Bikes -->
+        <section>
+            <h1 class="text-3xl lg:text-5xl font-semibold text-center p-10 pb-9">Latest Bikes</h1>
+            <!-- Card Container -->
+            <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
+            <!-- card-1 -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+            <!-- card-2 -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+            <!-- card-3 -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
     </main>
     <footer>
 
